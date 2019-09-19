@@ -91,7 +91,7 @@
         }
       },
       {
-        "scope": "meta.brace.round",
+        "scope": "meta.brace.round,punctuation.decorator,punctuation.definition.block,meta.brace.square",
         "settings": {
           "foreground": "#7B776F"
         }
@@ -233,7 +233,15 @@
     "list.hoverBackground": "#575765",
     "list.focusForeground": "#fff",
     "list.inactiveSelectionBackground": "#575765",
-    "list.activeSelectionBackground": "#FF5500"
+    "list.activeSelectionBackground": "#FF5500",
+    "button.background": "#40B3FF",
+    "extensionButton.prominentBackground": "#40B3FF",
+    "extensionBadge.remoteBackground": "#40B3FF",
+    "settings.textInputBackground": "#575765",
+    "settings.checkboxBackground": "#575765",
+    "settings.dropdownBackground": "#575765",
+    "settings.numberInputBackground": "#575765",
+    "settings.headerForeground": "#575765"
   },
   "workbench.colorTheme": "Visual Studio Dark"
 }
