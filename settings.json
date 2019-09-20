@@ -6,6 +6,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "zenMode.centerLayout": false,
   "window.zoomLevel": 0,
+  "eslint.autoFixOnSave": true,
   "editor.autoIndent": true,
   "editor.codeLens": true,
   "editor.cursorBlinking": "smooth",
@@ -61,7 +62,7 @@
         }
       },
       {
-        "scope": "support.type.property-name.json.comments",
+        "scope": "support.type.property-name.json.comments,punctuation.definition.parameters,punctuation.section.property-list,punctuation.separator.comma,keyword.operator.assignment",
         "settings": {
           "foreground": "#7B776B"
         }
@@ -139,7 +140,7 @@
         }
       },
       {
-        "scope": "entity.name.type",
+        "scope": "entity.name.type,support.type.object.module",
         "settings": {
           "foreground": "#7B776F"
         }
@@ -163,7 +164,7 @@
         }
       },
       {
-        "scope": "support.type.property-name",
+        "scope": "support.type.property-name,meta.property-value,punctuation.definition.binding-pattern.object,keyword.operator.ternary.",
         "settings": {
           "foreground": "#7B776F"
         }
@@ -221,9 +222,6 @@
     "input.background": "#fff",
     "input.border": "#676778",
     "input.foreground": "#7B776F",
-    "editor.selectionBackground": "#40B3FF",
-    "editor.selectionForeground": "#fff",
-    "editor.selectionHighlightBackground": "#FF5500",
     "editorHoverWidget.background": "#676778",
     "editorWidget.foreground": "#fff",
     "editorPane.background": "#676778",
@@ -233,7 +231,7 @@
     "list.hoverBackground": "#575765",
     "list.focusForeground": "#fff",
     "list.inactiveSelectionBackground": "#575765",
-    "list.activeSelectionBackground": "#FF5500",
+    "list.activeSelectionBackground": "#575765",
     "button.background": "#40B3FF",
     "extensionButton.prominentBackground": "#40B3FF",
     "extensionBadge.remoteBackground": "#40B3FF",
@@ -241,7 +239,18 @@
     "settings.checkboxBackground": "#575765",
     "settings.dropdownBackground": "#575765",
     "settings.numberInputBackground": "#575765",
-    "settings.headerForeground": "#575765"
+    "settings.headerForeground": "#575765",
+    "editor.findMatchHighlightBackground": "#57576554",
+    "editor.hoverHighlightBackground": "#57576554",
+    "editor.selectionHighlightBackground": "#57576554",
+    "editor.wordHighlightBackground": "#57576554",
+    "editor.selectionBackground": "#57576554",
+    "editor.selectionForeground": "#fff",
+    "selection.background": "#57576554",
+    "editor.inactiveSelectionBackground": "#57576554"
   },
-  "workbench.colorTheme": "Visual Studio Dark"
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
