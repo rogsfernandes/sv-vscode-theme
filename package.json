@@ -1,0 +1,21 @@
+{
+    "name": "svelte-color-theme",
+    "displayName": "Svelte Color Theme",
+    "description": "Visual Studio Code theme based on Svelte web site design.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Svelte Color Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Svelte Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
