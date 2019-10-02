@@ -1,5 +1,5 @@
 {
-  "name": "SV Color Theme",
+  "name": "Svelte Color Theme",
   "type": "light",
   "colors": {
     "editor.background": "#F6FAFD",
@@ -20,11 +20,11 @@
     "statusBar.noFolderBackground": "#FF5500",
     "statusBar.debuggingBackground": "#40B3FF",
     "tab.inactiveBackground": "#fff",
-    "tab.hoverBorder": "#40B3FF",
+    "tab.hoverBorder": "#FF5500",
     "tab.border": "#fff",
     "tab.inactiveForeground": "#999999",
     "tab.activeForeground": "#333333",
-    "tab.activeBorder": "#40B3FF",
+    "tab.activeBorder": "#FF5500",
     "titleBar.activeBackground": "#575765",
     "titleBar.activeForeground": "#fff",
     "editorGroupHeader.tabsBackground": "#676778",
@@ -39,6 +39,8 @@
     "editorHoverWidget.border": "#575765",
     "editorPane.background": "#676778",
     "panel.background": "#575765",
+    "panelTitle.activeForeground": "#fff",
+    "panelTitle.inactiveForeground": "#f6fafd49",
     "panel.border": "#7B776F",
     "list.focusBackground": "#575765",
     "list.hoverBackground": "#575765",
@@ -53,17 +55,23 @@
     "settings.dropdownBackground": "#575765",
     "settings.numberInputBackground": "#575765",
     "settings.headerForeground": "#575765",
-    "editor.findMatchHighlightBackground": "#57576554",
-    "editor.hoverHighlightBackground": "#40B3FF",
-    "editor.selectionHighlightBackground": "#57576554",
-    "editor.wordHighlightBackground": "#57576554",
-    "editor.selectionBackground": "#57576554",
-    "selection.background": "#57576554",
-    "editor.inactiveSelectionBackground": "#57576554",
-    "editor.lineHighlightBackground": "#57576554",
+    "editor.findMatchHighlightBackground": "#D7D4F0",
+    "editor.hoverHighlightBackground": "#D7D4F0",
+    "editor.selectionHighlightBackground": "#D7D4F0",
+    "editor.wordHighlightBackground": "#D7D4F0",
+    "editor.selectionBackground": "#D7D4F0",
+    "editor.inactiveSelectionBackground": "#D7D4F0",
+    "editor.lineHighlightBackground": "#D7D4F0",
     "peekViewEditor.background": "#F6FAFD",
     "peekViewResult.background": "#676778",
     "peekViewTitle.background": "#676778",
+    "peekViewTitleLabel.foreground": "#fff",
+    "peekViewTitleDescription.foreground": "#fff",
+    "peekViewResult.fileForeground": "#fff",
+    "peekViewResult.selectionForeground": "#D7D4F0",
+    "peekViewResult.lineForeground": "#fff",
+    "peekViewResult.matchHighlightBackground": "#676778",
+    "peekViewEditor.matchHighlightBackground": "#D7D4F0",
     "peekView.border": "#FF5500",
     "notifications.background": "#676778",
     "notifications.foreground": "#fff",
@@ -72,20 +80,23 @@
     "editor.findMatchBackground": "#40B3FF",
     "editorInfo.foreground": "#7B776F",
     "editorHint.foreground": "#7B776F",
-    "gitDecoration.addedResourceForeground": "#40B3FF",
+    "gitDecoration.addedResourceForeground": "#D7D4F0",
     "gitDecoration.deletedResourceForeground": "#FF5500",
-    "gitDecoration.conflictingResourceForeground": "#660000",
-    "gitDecoration.modifiedResourceForeground": "#40B3FF",
-    "gitDecoration.untrackedResourceForeground": "#40B3FF",
+    "gitDecoration.conflictingResourceForeground": "#FF5500",
+    "list.errorForeground": "#FF5500",
+    "gitDecoration.modifiedResourceForeground": "#D7D4F0",
+    "gitDecoration.untrackedResourceForeground": "#D7D4F0",
     "editorSuggestWidget.background": "#F6FAFD",
-    "editorSuggestWidget.selectedBackground": "#FF5500"
+    "editorSuggestWidget.selectedBackground": "#FF5500",
+    "badge.foreground": "#fff",
+    "progressBar.background": "#FF5500",
+    "terminal.foreground": "#fff"
   },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#8099B3"
       }
     },
@@ -93,7 +104,6 @@
       "name": "Comments: Preprocessor",
       "scope": "comment.block.preprocessor",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#8099B3"
       }
     },
@@ -101,7 +111,6 @@
       "name": "Comments: Documentation",
       "scope": ["comment.documentation", "comment.block.documentation"],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#8099B3"
       }
     },

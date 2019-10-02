@@ -1,8 +1,13 @@
 {
-  "name": "sv-color-theme",
-  "displayName": "SV Color Theme",
+  "name": "svelte-color-theme",
+  "displayName": "Svelte Color Theme",
   "publisher": "spartanroger",
   "description": "Visual Studio Code theme based on Svelte web site design.",
+  "icon": "svelte.png",
+  "galleryBanner": {
+    "color": "#fff",
+    "theme": "light"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.38.0"
@@ -13,9 +18,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "SV Color Theme",
+        "label": "Svelte Color Theme",
         "uiTheme": "vs",
-        "path": "./themes/SV Color Theme-color-theme.json"
+        "path": "./themes/svelte-color-theme.json"
       }
     ]
   },
