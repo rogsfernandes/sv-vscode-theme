@@ -31,11 +31,13 @@
     "editorIndentGuide.background": "#F6FAFD",
     "editorIndentGuide.activeBackground": "#F6FAFD",
     "editorWidget.background": "#676778",
+    "editorWidget.foreground":"#ffffff",
     "widget.shadow": "#676778",
     "input.background": "#fff",
     "input.border": "#676778",
     "input.foreground": "#7B776F",
     "editorHoverWidget.background": "#F6FAFD",
+    "editorHoverWidget.foreground": "#575765",
     "editorHoverWidget.border": "#575765",
     "editorPane.background": "#676778",
     "panel.background": "#575765",
@@ -90,12 +92,15 @@
     "editorSuggestWidget.selectedBackground": "#FF5500",
     "badge.foreground": "#fff",
     "progressBar.background": "#FF5500",
-    "terminal.foreground": "#fff"
+    "terminal.foreground": "#fff",
   },
   "tokenColors": [
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#8099B3"
       }
@@ -109,7 +114,10 @@
     },
     {
       "name": "Comments: Documentation",
-      "scope": ["comment.documentation", "comment.block.documentation"],
+      "scope": [
+        "comment.documentation",
+        "comment.block.documentation"
+      ],
       "settings": {
         "foreground": "#8099B3"
       }
@@ -130,35 +138,51 @@
     },
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage"],
+      "scope": [
+        "keyword",
+        "storage"
+      ],
       "settings": {
         "foreground": "#3080B5"
       }
     },
     {
       "name": "Types",
-      "scope": ["storage.type", "support.type"],
+      "scope": [
+        "storage.type",
+        "support.type"
+      ],
       "settings": {
         "foreground": "#7B776B"
       }
     },
     {
       "name": "Language Constants",
-      "scope": ["constant.language", "support.constant", "variable.language"],
+      "scope": [
+        "constant.language",
+        "support.constant",
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#72A25D"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable", "support.variable"],
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
       "settings": {
         "foreground": "#7B776F"
       }
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
       "settings": {
         "foreground": "#C05726"
       }
@@ -190,7 +214,11 @@
     },
     {
       "name": "Numbers, Characters",
-      "scope": ["constant.numeric", "constant.character", "constant"],
+      "scope": [
+        "constant.numeric",
+        "constant.character",
+        "constant"
+      ],
       "settings": {
         "foreground": "#72A25D"
       }
@@ -266,7 +294,10 @@
     },
     {
       "name": "HTML: Entities",
-      "scope": ["constant.character.entity", "punctuation.definition.entity"],
+      "scope": [
+        "constant.character.entity",
+        "punctuation.definition.entity"
+      ],
       "settings": {
         "foreground": "#C05726"
       }
@@ -285,7 +316,10 @@
     },
     {
       "name": "CSS: Property Names",
-      "scope": ["meta.property-name", "support.type.property-name"],
+      "scope": [
+        "meta.property-name",
+        "support.type.property-name"
+      ],
       "settings": {
         "foreground": "#7B776F"
       }
@@ -352,7 +386,10 @@
     },
     {
       "name": "Markup: Output",
-      "scope": ["markup.output", "markup.raw"],
+      "scope": [
+        "markup.output",
+        "markup.raw"
+      ],
       "settings": {
         "foreground": "#777777"
       }
@@ -408,7 +445,10 @@
     },
     {
       "name": "Markup Styling",
-      "scope": ["markup.bold", "markup.italic"],
+      "scope": [
+        "markup.bold",
+        "markup.italic"
+      ],
       "settings": {
         "foreground": "#448C27"
       }
@@ -423,7 +463,11 @@
     },
     {
       "name": "Extra: Diff Range",
-      "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+      "scope": [
+        "meta.diff.range",
+        "meta.diff.index",
+        "meta.separator"
+      ],
       "settings": {
         "foreground": "#434343"
       }
