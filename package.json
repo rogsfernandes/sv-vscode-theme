@@ -1,14 +1,14 @@
 {
   "name": "svelte-color-theme",
   "displayName": "Svelte Color Theme",
-  "publisher": "rogersantosdev",
+  "publisher": "spartanroger",
   "description": "Visual Studio Code theme based on Svelte web site design.",
   "icon": "svelte.png",
   "galleryBanner": {
     "color": "#fff",
     "theme": "light"
   },
-  "version": "0.1.0",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.38.0"
   },
