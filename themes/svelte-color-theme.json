@@ -4,7 +4,7 @@
   "colors": {
     "editor.background": "#F6FAFD",
     "editor.foreground": "#7B776F",
-    "foreground": "#fff",
+    "foreground": "#676778",
     "focusBorder": "#676778",
     "activityBar.background": "#575765",
     "activityBar.foreground": "#40B3FF",
@@ -80,10 +80,13 @@
     "peekViewResult.matchHighlightBackground": "#676778",
     "peekViewEditor.matchHighlightBackground": "#D7D4F0",
     "peekView.border": "#FF5500",
-    "notifications.background": "#676778",
-    "notifications.foreground": "#fff",
-    "notificationCenterHeader.foreground": "#fff",
-    "notificationCenterHeader.background": "#FF5500",
+    "notifications.background": "#fff",
+    "notifications.foreground": "#676778",
+    "notifications.border": "#676778",
+    "notificationToast.border": "#676778",
+    "notificationCenterHeader.foreground": "#676778",
+    "notificationCenterHeader.background": "#fff",
+    "notificationCenter.border": "#676778",
     "editor.findMatchBackground": "#40B3FF",
     "editorInfo.foreground": "#7B776F",
     "editorHint.foreground": "#7B776F",
@@ -176,7 +179,8 @@
       "name": "Variables",
       "scope": [
         "variable",
-        "support.variable"
+        "support.variable",
+        "variable.parameter",
       ],
       "settings": {
         "foreground": "#7B776F"
@@ -186,7 +190,9 @@
       "name": "Functions",
       "scope": [
         "entity.name.function",
-        "support.function"
+        "support.function",
+        "meta.function",
+        "meta.function-call"
       ],
       "settings": {
         "foreground": "#C05726"
@@ -529,12 +535,6 @@
       }
     },
     {
-      "scope": "variable.other.object,support.function",
-      "settings": {
-        "foreground": "#7B776F"
-      }
-    },
-    {
       "scope": "meta.brace.round,punctuation.decorator,punctuation.definition.block,meta.brace.square",
       "settings": {
         "foreground": "#7B776F"
@@ -580,12 +580,6 @@
       "scope": "support.type.object.module,support.variable.property,keyword.operator.optional,punctuation.separator.dictionary.key-value.",
       "settings": {
         "foreground": "#7B776F"
-      }
-    },
-    {
-      "scope": "meta.class,support.variable.object,meta.type,meta.interface,entity.name.type,support.type",
-      "settings": {
-        "foreground": "#C05726"
       }
     },
     {
