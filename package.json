@@ -8,7 +8,7 @@
     "color": "#fff",
     "theme": "light"
   },
-  "version": "0.1.9",
+  "version": "0.1.11",
   "engines": {
     "vscode": "^1.38.0"
   },
@@ -21,6 +21,11 @@
         "label": "Svelte Color Theme",
         "uiTheme": "vs",
         "path": "./themes/svelte-color-theme.json"
+      },
+      {
+        "label": "Svelte Color Theme Dark Terminal",
+        "uiTheme": "vs",
+        "path": "./themes/svelte-color-theme-dark-terminal.json"
       }
     ]
   },

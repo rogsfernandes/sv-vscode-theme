@@ -1,5 +1,5 @@
 {
-  "name": "Svelte Color Theme",
+  "name": "Svelte Color Theme Dark Terminal",
   "type": "light",
   "colors": {
     "editor.background": "#F6FAFD",
@@ -34,7 +34,7 @@
     "editorIndentGuide.background": "#F6FAFD",
     "editorIndentGuide.activeBackground": "#F6FAFD",
     "editorWidget.background": "#676778",
-    "editorWidget.foreground":"#b3b0c9",
+    "editorWidget.foreground": "#b3b0c9",
     "icon.foreground": "#fff",
     "input.background": "#fff",
     "input.border": "#676778",
@@ -44,6 +44,7 @@
     "editorHoverWidget.foreground": "#575765",
     "editorHoverWidget.border": "#575765",
     "editorPane.background": "#7e7e94",
+    "terminal.foreground": "#F6FAFD",
     "terminal.ansiBrightCyan": "#40B3FF",
     "terminal.ansiBrightMagenta": "#FF5500",
     "terminal.ansiBrightRed": "#FF5500",
@@ -51,7 +52,10 @@
     "debugConsole.sourceForeground": "#F6FAFD",
     "debugConsole.warningForeground": "#40B3FF",
     "debugConsole.infoForeground": "#F6FAFD",
-    "panel.background": "#fff",
+    "panel.background": "#575765",
+    "panelTitle.activeForeground": "#fff",
+    "panelTitle.inactiveForeground": "#D7D4F0",
+    "panelTitle.activeBorder": "#ff0000",
     "panelSectionHeader.foreground": "#fff",
     "list.focusBackground": "#575765",
     "list.hoverBackground": "#575765",
@@ -109,7 +113,7 @@
     "editorSuggestWidget.background": "#F6FAFD",
     "editorSuggestWidget.selectedBackground": "#40B3FF",
     "badge.foreground": "#fff",
-    "progressBar.background": "#FF5500",
+    "progressBar.background": "#FF5500"
   },
   "tokenColors": [
     {
