@@ -2,7 +2,7 @@
 
 SV Color Theme is loosely based on Svelte's website color scheme. I found it so confortable to learn about it on their website that I just wanted to be able to code having that same feeling, even with different frontend frameworks. It's a homage to the nice work done by their designers.
 
-![Extension photo](https://imgur.com/2Fw5UUK)
+![Extension photo](https://imgur.com/2Fw5UUK.jpg)
 
 _User settings suggestion:_
 
