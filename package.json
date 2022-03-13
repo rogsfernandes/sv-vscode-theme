@@ -1,14 +1,14 @@
 {
-  "name": "svelte-color-theme",
-  "displayName": "Svelte Color Theme",
-  "publisher": "spartanroger",
-  "description": "Visual Studio Code theme based on Svelte web site design.",
-  "icon": "svelte.png",
+  "name": "sv-color-theme",
+  "displayName": "SV Color Theme",
+  "publisher": "rogeriosantos",
+  "description": "Unoficcial Visual Studio Code theme based on Svelte website color scheme.",
+  "icon": "sv-logo.jpg",
   "galleryBanner": {
     "color": "#fff",
     "theme": "light"
   },
-  "version": "0.1.11",
+  "version": "0.1.12",
   "engines": {
     "vscode": "^1.38.0"
   },
@@ -18,18 +18,18 @@
   "contributes": {
     "themes": [
       {
-        "label": "Svelte Color Theme",
+        "label": "SV Color Theme",
         "uiTheme": "vs",
-        "path": "./themes/svelte-color-theme.json"
+        "path": "./themes/sv-color-theme.json"
       },
       {
-        "label": "Svelte Color Theme Dark Terminal",
+        "label": "SV Color Theme Dark Terminal",
         "uiTheme": "vs",
-        "path": "./themes/svelte-color-theme-dark-terminal.json"
+        "path": "./themes/sv-color-theme-dark-terminal.json"
       }
     ]
   },
   "repository": {
-    "url": "https://github.com/spartanroger/svelte-vscode-theme"
+    "url": "https://github.com/rogeriosantosf/sv-vscode-theme"
   }
 }

@@ -1,47 +1,43 @@
-# Svelte Color Theme for Visual Studio Code
-## Simple, elegant and efficient.
+# SV Color Theme for Visual Studio Code
 
-![Extension photo](https://i.imgur.com/vf6x5Ga.jpg)
+SV Color Theme is loosely based on Svelte's website color scheme. I found it so confortable to learn about it on their website that I just wanted to be able to code having that same feeling, even with different frontend frameworks. It's a homage to the nice work done by their designers.
 
-_Recommended user settings:_
+![Extension photo](https://imgur.com/2Fw5UUK)
+
+_User settings suggestion:_
 
 ```javascript
 {
+  {
   "debug.toolBarLocation": "floating",
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 2000,
   "search.showLineNumbers": true,
-  "workbench.iconTheme": "material-icon-theme",
   "zenMode.centerLayout": false,
-  "window.zoomLevel": 0,
-  "eslint.autoFixOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.autoIndent": true,
   "editor.codeLens": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "line",
-  "editor.fontSize": 15,
-  "terminal.integrated.fontSize": 14,
-  "editor.fontFamily": "'Fira Mono', 'Fira Code', monospace",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
+  "editor.fontFamily": "Fira Code iScript",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.renderLineHighlight": "none",
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
   "editor.renderIndentGuides": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Svelte Color Theme",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.colorCustomizations": {},
+  "workbench.settings.editor": "json",
+  "terminal.integrated.rendererType": "dom",
+  "explorer.confirmDelete": false,
+  "nasc-touchbar.showCommands": true,
+  "keyboard.touchbar.enabled": false,
+  "npm.enableTouchbar": true,
+  "vsicons.projectDetection.autoReload": true,
+  "editor.suggestSelection": "first",
 }
 ```
