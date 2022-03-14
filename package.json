@@ -2,7 +2,7 @@
   "name": "sv-color-theme",
   "displayName": "SV Color Theme",
   "publisher": "rogeriosantos",
-  "description": "Unoficcial Visual Studio Code theme based on Svelte website color scheme.",
+  "description": "Unofficial VS Code theme based on Svelte website color scheme.",
   "icon": "sv-logo.jpg",
   "scripts": {
     "release": "standard-version",
