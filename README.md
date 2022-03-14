@@ -8,7 +8,6 @@ _User settings suggestion:_
 
 ```javascript
 {
-  {
   "debug.toolBarLocation": "floating",
   "search.showLineNumbers": true,
   "zenMode.centerLayout": false,
