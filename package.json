@@ -4,11 +4,15 @@
   "publisher": "rogeriosantos",
   "description": "Unoficcial Visual Studio Code theme based on Svelte website color scheme.",
   "icon": "sv-logo.jpg",
+  "scripts": {
+    "release": "standard-version",
+    "commit": "cz"
+  },
   "galleryBanner": {
     "color": "#fff",
     "theme": "light"
   },
-  "version": "0.1.12",
+  "version": "0.1.13",
   "engines": {
     "vscode": "^1.38.0"
   },
@@ -31,5 +35,15 @@
   },
   "repository": {
     "url": "https://github.com/rogeriosantosf/sv-vscode-theme"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
