@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/rogeriosantosf/sv-vscode-theme/compare/v0.1.13...v0.1.14) (2022-03-14)
+
+
+### Bug Fixes
+
+* change the package description ([51e9ab7](https://github.com/rogeriosantosf/sv-vscode-theme/commit/51e9ab75bc0a11c136e99d52bc40376f063e89af))
+
 ### 0.1.13 (2022-03-14)
 
 
